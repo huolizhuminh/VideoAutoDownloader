@@ -1,0 +1,17 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+
+.idea/encodings.xml
+.idea/
+gradle/wrapper/gradle-wrapper.jar
+gradlew
+gradlew.bat
+/log/build/generated/source/buildConfig/debug/com/minhui/logs
+*.apk

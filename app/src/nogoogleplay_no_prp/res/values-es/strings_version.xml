@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NetCapture</string>
+    <string name="welcome_to_app" >Welcome to NetCapture</string>
+    <string name="privacy_policy_html">http://huolizhuminh.cn/NetCapture/en/privacy.html</string>
+</resources>

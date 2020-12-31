@@ -1,0 +1,23 @@
+<resources>
+    <declare-styleable name="MultipleSelectionButton">
+        <attr name="ascv_unselectedTextColor" format="reference" />
+        <attr name="ascv_unselectedColor" format="reference" />
+        <attr name="ascv_selectedColor" format="reference" />
+        <attr name="ascv_selectedTextColor" format="reference" />
+        <attr name="ascv_items" format="reference" />
+        <attr name="ascv_values" format="reference" />
+        <attr name="ascv_equalWidth" format="boolean" />
+        <attr name="ascv_stretch" format="boolean" />
+        <attr name="ascv_defaultSelection" format="integer" />
+        <attr name="ascv_identifier" format="string" />
+    </declare-styleable>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+</resources>

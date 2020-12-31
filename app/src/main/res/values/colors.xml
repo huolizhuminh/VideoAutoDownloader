@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white_FFFFFFFF">#FFFFFFFF</color>
+    <color name="bg_F8F8F9">#F8F8F9</color>
+    <color name="black_FF333333">#FF333333</color>
+    <color name="color_33">#333333</color>
+    <color name="div_common_edge">#ffc3cdd4</color>
+    <color name="st_bg_common_master_orange">#d9922a</color>
+    <color name="st_bg_div_common_bottom">#292C32</color>
+
+    <!-- standard common part -->
+    <color name="st_bg_common_toast_or_snack">#3C4048</color>
+
+    <color name="st_text_master_common_white">#FFFFFF</color>
+    <color name="st_text_common_hint_white">#4DFFFFFF</color>
+    <!-- standard trade part -->
+    <color name="st_text_minor_master_orange">#64d9922a</color>
+    <!-- common part -->
+    <color name="bg_common_transparent">#00000000</color>
+
+    <!-- The portfolio part-->
+
+
+    <!-- The trade part-->
+
+
+    <!-- The market part-->
+
+
+    <!-- The personal part-->
+    <!-- OCR -->
+
+    <!-- COLOR CHANGE -->
+
+    <!-- COLOR CHANGE -->
+    <color name="white">#FFFFFF</color>
+    <color name="default_ascv_selected_color">#F4840B</color>
+    <color name="default_ascv_unselected_color">#FFFFFF</color>
+
+</resources>

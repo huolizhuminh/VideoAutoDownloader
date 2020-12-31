@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/auto_send_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/auto_match"
+            style="@style/setting_text_explain"
+            />
+        <com.minhui.networkcapture.view.CheckableImageView
+            android:id="@+id/auto_match"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="5dip"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/checkbox" />
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/add_container"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/auto_send_container"
+        android:layout_height="60dp">
+
+        <EditText
+            android:id="@+id/ip"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="120dp"
+            android:hint="@string/enter_ip" />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/add"
+            android:background="@drawable/bg_btn_blue_small"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/ip_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/add_container"
+        />
+
+</RelativeLayout>

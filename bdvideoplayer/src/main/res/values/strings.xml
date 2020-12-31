@@ -1,0 +1,4 @@
+<resources>
+    <string name="failed_to_load_video">Failed to load the video</string>
+    <string name="click_to_retry">Click to retry</string>
+</resources>

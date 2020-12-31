@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="all">抓所有的包</string>
+    <string name="clear_history">清除缓存</string>
+    <string name="success_clear_history_data">成功清除所有历史记录！</string>
+    <string name="select_package">选择您想要抓包的应用</string>
+    <string name="yes">是</string>
+    <string name="cancel">取消</string>
+    <string name="about_app">关于视频抓取器</string>
+    <string name="email_address">联系我:sysuzhuminh@gmail.com</string>
+    <string name="github_address">Github地址:https://github.com/huolizhuminh/NetWorkPacketCapture</string>
+    <string name="search">搜索</string>
+    <string name="select_app">选择应用</string>
+    <string name="select_ip">选择IP</string>
+    <string name="select_host">选择域名</string>
+    <string name="capture_filter">抓包过滤</string>
+    <string name="enter_ip">输入IP如 8:8:8:8</string>
+    <string name="add">添加</string>
+    <string name="selected_app">已选择应用</string>
+    <string name="not_select_yet">暂未选择</string>
+    <string name="selected_ip">已选IP:</string>
+    <string name="selected_host">已选域名:</string>
+    <string name="play_music">音频播放</string>
+    <string name="play_video">视频播放</string>
+    <string name="not_now">暂不</string>
+    <string name="up_load">上传</string>
+    <string name="share_to">分享到:</string>
+    <string name="share">分享</string>
+    <string name="enable_log">开启日志</string>
+    <string name="dev_setting">开发者设置</string>
+    <string name="invalid_file">文件格式非法！</string>
+    <string name="auto_match">自动匹配</string>
+    <string name="select_core_data">选择核心数据</string>
+    <string name="delete">删除</string>
+    <string name="type_all">全部</string>
+    <string name="type_text">文字</string>
+    <string name="image">图片</string>
+    <string name="video">视频</string>
+    <string name="audio">音频</string>
+    <string name="other">其它</string>
+    <string name="udp">UDP</string>
+
+    <!-- Unlicensed dialog messages -->
+
+    <string name="do_you_like_the_app">您喜欢这个应用吗？</string>
+    <string name="no">不</string>
+    <string name="do_you_want_star">您能给我们提供建议以持续改进此应用吗？</string>
+    <string name="any_device_send_email">要是您有任何使用上的问题，请发送邮件到sysuzhuminh@gmail.com 来请求帮助。</string>
+    <string name="register">注册</string>
+    <string name="purchase_pro_version">支持开发者并购买专业版本</string>
+    <string name="welcome_to_app" >欢迎使用视频抓取器Pro</string>
+    <string name="use_license">用户许可</string>
+    <string name="vpn_explain_title">配置VPN</string>
+    <string name="ssl_explain_title">安装根证书</string>
+    <string name="privacy_policy">隐私条款</string>
+
+    <string name="failed_to_share">分享失败</string>
+
+    <string name="menu_home">抓取</string>
+    <string name="menu_history">记录</string>
+    <string name="menu_setting">设置</string>
+
+    <string name="start_capture">开始</string>
+    <string name="stop_capture">结束</string>
+    <string name="action_filter">过滤</string>
+    <string name="history">历史</string>
+    <string name="save_video">保存视频</string>
+    <string name="add_favorite">收藏</string>
+    <string name="copy_url">复制链接</string>
+    <string name="success_save_video">"成功保存视频到："</string>
+    <string name="copy_success">拷贝成功！</string>
+    <string name="menu_favorite">收藏</string>
+</resources>

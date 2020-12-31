@@ -1,0 +1,85 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <!-- <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+       &lt;!&ndash; <item name="android:windowAnimationStyle">@style/CommonActivityInOutAnim</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="actionBarStyle">@style/ActionBarStyle_Base</item>
+        <item name="actionMenuTextColor">@color/menu_text_color</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="actionMenuTextAppearance">@style/ActionBarStyle_Menu</item>&ndash;&gt;
+        <item name="android:colorPrimary" >@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        &lt;!&ndash;api 21 可用 各个控制控件的默认颜色&ndash;&gt;
+    </style>-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/st_bg_common_master_orange</item>
+        <item name="colorPrimaryDark">@color/st_bg_common_master_orange</item>
+    </style>
+
+    <style name="setting_text_explain">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/color_33</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center|left</item>
+        <item name="android:drawablePadding">15dp</item>
+    </style>
+    <!--  <style name="Theme.Dialog.NoFrame"> -->
+    <style name="LocationDialogStyle" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 展现的动画效果 -->
+        <item name="android:windowAnimationStyle">@style/LocationDialogAnimationStyle</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 去掉标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 点击外部是否可以取消 -->
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <style name="LocationDialogAnimationStyle">
+        <item name="android:windowEnterAnimation">@anim/input_method_enter</item>
+        <item name="android:windowExitAnimation">@anim/input_method_exit</item>
+    </style>
+
+    <style name="divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1.0px</item>
+        <item name="android:background">@color/st_bg_div_common_bottom</item>
+        <item name="android:contentDescription">@null</item>
+    </style>
+
+    <declare-styleable name="GifView">
+        <attr name="gif" format="reference" />
+        <attr name="paused" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CustomTheme">
+        <attr name="gifViewStyle" format="reference" />
+    </declare-styleable>
+
+    <style name="Widget_GifView"></style>
+
+    <style name="text_style">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textColor">@color/black_FF333333</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

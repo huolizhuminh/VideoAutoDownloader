@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.minhui.networkcapture">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" /> -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="false"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name=".MainCaptureActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ui.WebShowActivity" />
+        <activity
+            android:name=".ui.SslExplainActivity"
+            android:label="@string/ssl_explain_title" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:label="@string/register"/>
+        <activity
+            android:name=".ui.VpnUseActivity"
+            android:label="@string/vpn_explain_title" />
+        <activity
+            android:name=".ui.UseLicenseActivity"
+            android:label="@string/use_license" />
+        <activity
+            android:name=".ui.SpalishActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="InstallChannel"
+            android:value="${MTA_CHANNEL_VALUE}"
+            tools:replace="android:value" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="${ADS_APP_ID}" />
+        <meta-data
+            android:name="BuildVersionTime"
+            android:value="${BUILD_VER_TIME}" />
+        <meta-data
+            android:name="PublishVersion"
+            android:value="${PUBLISH_VERSION}" />
+        <meta-data
+            android:name="ProviderName"
+            android:value="${PROVIDER_NAME}" />
+
+        <!-- <activity
+             android:name=".ui.VPNCaptureActivity"
+             android:screenOrientation="fullSensor" />-->
+        <!--
+ <activity
+            android:name=".ui.PermissionActivity"
+            android:screenOrientation="fullSensor" />
+        -->
+        <activity
+            android:name=".ui.PackageListActivity"
+            android:label="@string/select_package"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".ui.AboutActivity"
+            android:label="@string/about_app"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".ui.CaptureFilterActivity"
+            android:label="@string/capture_filter"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".ui.SelectIpActivity"
+            android:label="@string/select_ip"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".ui.SelectHostActivity"
+            android:label="@string/select_host"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".audio.mainactivity.MusicPlayActivity"
+            android:label="@string/play_music"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".video.VideoDetailActivity"
+            android:label="@string/play_video"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".upload.UpLoadSettingActivity"
+            android:label="@string/up_load"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".ui.LogCollectorActivity"
+            android:label="@string/dev_setting"
+            android:screenOrientation="fullSensor" />
+
+        <service android:name=".audio.MusicPlayService" />
+
+        <activity
+            android:name=".ui.HistoryItemActivity"
+            android:label="@string/history"
+            android:screenOrientation="fullSensor"
+            />
+        <!--
+  <activity
+            android:name=".capturemore.CaptureMoreActivity"
+            android:label="@string/uninstall_root"
+            android:screenOrientation="fullSensor" />
+        -->
+        <service
+            android:name=".core.CoreService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.minhui.KEEPALIVE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${PROVIDER_NAME}"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

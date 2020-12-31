@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">视频抓取器</string>
+    <string name="welcome_to_app" >欢迎使用视频抓取器</string>
+    <string name="privacy_policy_html">http://huolizhuminh.cn/NetCapture/zh/privacy.html</string>
+</resources>

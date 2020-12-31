@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="all">Capturar todos los paquetes</string>
+    <string name="clear_history">Limpiar caché</string>
+    <string name="success_clear_history_data">El historial se ha eliminado!</string>
+    <string name="select_package">Seleccione la aplicación</string>
+    <string name="yes">Si</string>
+    <string name="cancel">Cancelar</string>
+    <string name="about_app">Acerca de SSL Capture</string>
+    <string name="email_address">Contáctame:sysuzhuminh@gmail.com</string>
+    <string name="github_address">Github:https://github.com/huolizhuminh/NetWorkPacketCapture</string>
+    <string name="search">Buscar</string>
+    <string name="select_app">Seleccione la aplicación</string>
+    <string name="select_ip">Seleccione la IP</string>
+    <string name="select_host">Seleccione el dominio</string>
+    <string name="capture_filter">Filtrar captura</string>
+    <string name="enter_ip">Introduzca una IP como 8:8:8:8</string>
+    <string name="add">Añadir</string>
+    <string name="selected_app">Seleccionar Aplicación</string>
+    <string name="not_select_yet">No ha seleccionado nada aún!</string>
+    <string name="selected_ip">Seleccione la IP:</string>
+    <string name="selected_host">Seleccione el dominio:</string>
+    <string name="play_music">Reproducir Audio</string>
+    <string name="play_video">Reproducir video</string>
+    <string name="not_now">Ahora no</string>
+    <string name="up_load">Cargando los datos de análisis</string>
+    <string name="share_to">Compartir con:</string>
+    <string name="share">Compartir</string>
+    <string name="enable_log">Habilitar registro</string>
+    <string name="dev_setting">Configuración del dispositivo</string>
+    <string name="invalid_file">Archivo invalido</string>
+    <string name="auto_match">Coincidencia automática</string>
+    <string name="select_core_data">Seleccione los datos básicos</string>
+    <string name="delete">Eliminar</string>
+    <string name="type_all">Todo</string>
+    <string name="type_text">Texto</string>
+    <string name="image">Imagen</string>
+    <string name="video">Video</string>
+    <string name="audio">Audio</string>
+    <string name="other">Otros</string>
+    <string name="udp">UDP</string>
+
+
+    <!-- License checking status messages -->
+
+    <!-- Unlicensed dialog messages -->
+    <string name="do_you_like_the_app">Te gusta la aplicación?</string>
+    <string name="no">No</string>
+    <string name="do_you_want_star">¿Podrías darnos algunos consejos para mejorar la aplicación?</string>
+    <string name="any_device_send_email">Si tiene algún problema al utilizar la aplicación,envíe un correo electrónico a sysuzhuminh@gmail.com para obtener ayuda</string>
+    <string name="register">Registro </string>
+
+    <string name="purchase_pro_version">Support developer and purchase pro version</string>
+    <string name="welcome_to_app" >Welcome to NetKeeper</string>
+    <string name="use_license">User License Agreement</string>
+    <string name="vpn_explain_title">Config VPN</string>
+    <string name="ssl_explain_title">Install Root certificate</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="start_capture">Start</string>
+    <string name="stop_capture">Stop</string>
+    <string name="action_filter">Filter</string>
+
+    <string name="failed_to_share">Failed to share!</string>
+
+    <string name="menu_home">Capture</string>
+    <string name="menu_history">History</string>
+    <string name="menu_setting">Setting</string>
+
+    <string name="history">History</string>
+    <string name="save_video">Save Video</string>
+    <string name="add_favorite">Add to Favorites</string>
+    <string name="copy_url">Copy Url</string>
+    <string name="success_save_video">"Success save video to:"</string>
+    <string name="copy_success">Copy Success !</string>
+    <string name="menu_favorite">Favorite</string>
+</resources>

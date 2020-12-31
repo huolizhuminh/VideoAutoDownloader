@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VideoAutoDownloader</string>
+    <string name="base_dir_name" translatable="false">VideoCapture</string>
+    <string name="welcome_to_app" >Welcome to VideoDownloader</string>
+</resources>

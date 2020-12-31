@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/all"
+        style="@style/text_style"
+        android:background="@color/st_bg_common_master_orange"
+        android:text="@string/type_all"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/text"
+        style="@style/text_style"
+        android:text="@string/type_text" />
+
+    <TextView
+        android:id="@+id/image"
+        style="@style/text_style"
+        android:text="@string/image" />
+
+    <TextView
+        android:id="@+id/video"
+        style="@style/text_style"
+        android:text="@string/video" />
+
+    <TextView
+        android:id="@+id/audio"
+        style="@style/text_style"
+        android:text="@string/audio" />
+    <TextView
+        android:id="@+id/udp"
+        style="@style/text_style"
+        android:text="@string/udp" />
+    <TextView
+        android:id="@+id/other"
+        style="@style/text_style"
+        android:text="@string/other" />
+</LinearLayout>
